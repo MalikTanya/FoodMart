@@ -1,7 +1,8 @@
+import Apple_Juice from "./src/assets/apple-juice.webp";
 export const foods = [
   {
     id: 1,
-    image: "./src/assets/apple-juice.webp",
+    image: { Apple_Juice },
     title: "Apple Juice",
     description:
       "Freshly squeezed Apple juice that is great for your wellbeing.",
@@ -9,7 +10,7 @@ export const foods = [
     category: "Beverages",
     restaurantName: "Restaurant 1",
     tag: "Veg",
-    quantity: 0
+    quantity: 0,
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ export const foods = [
     category: "Desserts",
     restaurantName: "Restaurant 2",
     tag: "Veg",
-    quantity: 0
+    quantity: 0,
   },
   {
     id: 3,
@@ -32,8 +33,7 @@ export const foods = [
     category: "Soups",
     restaurantName: "Restaurant 3",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 4,
@@ -44,8 +44,7 @@ export const foods = [
     category: "Desserts",
     restaurantName: "Restaurant 4",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 5,
@@ -56,8 +55,7 @@ export const foods = [
     category: "Main Course",
     restaurantName: "Restaurant 5",
     tag: "Non-Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 6,
@@ -68,8 +66,7 @@ export const foods = [
     category: "Beverages",
     restaurantName: "Restaurant 6",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 7,
@@ -80,8 +77,7 @@ export const foods = [
     category: "Starters",
     restaurantName: "Restaurant 7",
     tag: "Non-Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 8,
@@ -92,8 +88,7 @@ export const foods = [
     category: "Desserts",
     restaurantName: "Restaurant 8",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 9,
@@ -104,8 +99,7 @@ export const foods = [
     category: "Desserts",
     restaurantName: "Restaurant 9",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 10,
@@ -116,8 +110,7 @@ export const foods = [
     category: "Starters",
     restaurantName: "Restaurant 10",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 11,
@@ -128,8 +121,7 @@ export const foods = [
     category: "Soups",
     restaurantName: "Restaurant 11",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 12,
@@ -140,8 +132,7 @@ export const foods = [
     category: "Beverages",
     restaurantName: "Restaurant 12",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 13,
@@ -152,8 +143,7 @@ export const foods = [
     category: "Main Course",
     restaurantName: "Restaurant 13",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 14,
@@ -164,8 +154,7 @@ export const foods = [
     category: "Main Course",
     restaurantName: "Restaurant 14",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 15,
@@ -176,8 +165,7 @@ export const foods = [
     category: "Starters",
     restaurantName: "Restaurant 15",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 16,
@@ -188,8 +176,7 @@ export const foods = [
     category: "Beverages",
     restaurantName: "Restaurant 16",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
   {
     id: 17,
@@ -200,8 +187,7 @@ export const foods = [
     category: "Soups",
     restaurantName: "Restaurant 16",
     tag: "Veg",
-    quantity: 0
-
+    quantity: 0,
   },
 ];
 
