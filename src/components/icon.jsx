@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [currentPage, setCurrentPage] = useState("/page1");
@@ -14,25 +13,25 @@ export default function Navbar() {
         src="icon1.png"
         alt="Icon 1"
         onClick={() => handleIconClick("/page1")}
-        style={{ cursor: "pointer" }}
+        className="cursor-pointer"
       />
       <img
         src="icon2.png"
         alt="Icon 2"
         onClick={() => handleIconClick("/page1")}
-        style={{ cursor: "pointer" }}
+        className="cursor-pointer"
       />
       <img
         src="icon3.png"
         alt="Icon 3"
         onClick={() => handleIconClick("/page1")}
-        style={{ cursor: "pointer" }}
+        className="cursor-pointer"
       />
       <img
         src="icon4.png"
         alt="Icon 4"
         onClick={() => handleIconClick("/page1")}
-        style={{ cursor: "pointer" }}
+        className="cursor-pointer"
       />
     </div>
   );
