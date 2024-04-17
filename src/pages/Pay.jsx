@@ -1,10 +1,10 @@
 import Header from "@/components/header";
 import React from "react";
-import payUs from "../assets/PayUs.png";
-import phonepay from "../assets/phonepe.png";
-import googlepay from "../assets/googlepay.png";
-import amazonpay from "../assets/amazonpay.png";
-import paytm from "../assets/paytm.png";
+import payUs from "/assets/PayUs.png";
+import phonepay from "/assets/phonepe.png";
+import googlepay from "/assets/googlepay.png";
+import amazonpay from "/assets/amazonpay.png";
+import paytm from "/assets/paytm.png";
 import { Separator } from "@/components/ui/separator";
 
 const Pay = () => {

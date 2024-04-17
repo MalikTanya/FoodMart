@@ -1,5 +1,5 @@
 import React from "react";
-import restaurantLogo from "../assets/logo.jpg";
+import restaurantLogo from "/assets/logo.jpg";
 import { Separator } from "@/components/ui/separator";
 
 const Header = () => {
@@ -7,9 +7,7 @@ const Header = () => {
     <div>
       <div className="flex mb-4 mt-2">
         <div>
-          <h1 className="font-bold sm:text-2xl text-xl">
-            Demo Restaurant
-          </h1>
+          <h1 className="font-bold sm:text-2xl text-xl">Demo Restaurant</h1>
           <p className="mt-0 mb-0 sm:text-base text-sm font-normal">
             Multi cuisine restaurant situated in the heart of the city
           </p>

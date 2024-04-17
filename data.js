@@ -1,8 +1,7 @@
-import Apple_Juice from "./src/assets/apple-juice.webp";
 export const foods = [
   {
     id: 1,
-    image: { Apple_Juice },
+    image: "/assets/apple-juice.webp",
     title: "Apple Juice",
     description:
       "Freshly squeezed Apple juice that is great for your wellbeing.",
@@ -14,7 +13,7 @@ export const foods = [
   },
   {
     id: 2,
-    image: "./src/assets/Apple-Pie.webp",
+    image: "/assets/Apple-Pie.webp",
     title: "Apple Pie",
     description:
       "Goodness of apples and ice cream with a sprinkle of cinnamon.",
@@ -26,7 +25,7 @@ export const foods = [
   },
   {
     id: 3,
-    image: "./src/assets/Basil-Soup.webp",
+    image: "/assets/Basil-Soup.webp",
     title: "Basil Soup",
     description: "Description of Food Item 3",
     price: 8.99,
@@ -37,7 +36,7 @@ export const foods = [
   },
   {
     id: 4,
-    image: "./src/assets/Brownie.webp",
+    image: "/assets/Brownie.webp",
     title: "Brownie",
     description: "Description of Food Item 4",
     price: 10.99,
@@ -48,7 +47,7 @@ export const foods = [
   },
   {
     id: 5,
-    image: "./src/assets/Butter-Chicken.webp",
+    image: "/assets/Butter-Chicken.webp",
     title: "Butter Chicken",
     description: "Description of Food Item 5",
     price: 7.99,
@@ -59,7 +58,7 @@ export const foods = [
   },
   {
     id: 6,
-    image: "./src/assets/coffee.webp",
+    image: "/assets/coffee.webp",
     title: "Coffee",
     description: "Description of Food Item 6",
     price: 11.99,
@@ -70,7 +69,7 @@ export const foods = [
   },
   {
     id: 7,
-    image: "./src/assets/Fried-Chicken.webp",
+    image: "/assets/Fried-Chicken.webp",
     title: "Fried Chicken",
     description: "Description of Food Item 7",
     price: 9.49,
@@ -81,7 +80,7 @@ export const foods = [
   },
   {
     id: 8,
-    image: "./src/assets/Gulab-Jamun.webp",
+    image: "/assets/Gulab-Jamun.webp",
     title: "Gulab Jamun",
     description: "Description of Food Item 8",
     price: 13.99,
@@ -92,7 +91,7 @@ export const foods = [
   },
   {
     id: 9,
-    image: "./src/assets/Malai-Kulfi.webp",
+    image: "/assets/Malai-Kulfi.webp",
     title: "Malai Kulfi",
     description: "Description of Food Item 9",
     price: 6.99,
@@ -103,7 +102,7 @@ export const foods = [
   },
   {
     id: 10,
-    image: "./src/assets/Mixed-Veggie-Platter.webp",
+    image: "/assets/Mixed-Veggie-Platter.webp",
     title: "Mixed Veggie Platter",
     description: "Description of Food Item 10",
     price: 14.99,
@@ -114,7 +113,7 @@ export const foods = [
   },
   {
     id: 11,
-    image: "./src/assets/Onion-Soup.webp",
+    image: "/assets/Onion-Soup.webp",
     title: "Onion Soup",
     description: "Description of Food Item 11",
     price: 9.99,
@@ -125,7 +124,7 @@ export const foods = [
   },
   {
     id: 12,
-    image: "./src/assets/orange-juice.webp",
+    image: "/assets/orange-juice.webp",
     title: "Orange Juice",
     description: "Description of Food Item 12",
     price: 12.99,
@@ -136,7 +135,7 @@ export const foods = [
   },
   {
     id: 13,
-    image: "./src/assets/Panner-Butter-Masala.webp",
+    image: "/assets/Panner-Butter-Masala.webp",
     title: "Panner Butter Masala",
     description: "Description of Food Item 13",
     price: 8.99,
@@ -147,7 +146,7 @@ export const foods = [
   },
   {
     id: 14,
-    image: "./src/assets/Panner-Manchurian.webp",
+    image: "/assets/Panner-Manchurian.webp",
     title: "Panner Manchurian",
     description: "Description of Food Item 14",
     price: 10.99,
@@ -158,7 +157,7 @@ export const foods = [
   },
   {
     id: 15,
-    image: "./src/assets/Steamed-Momos.webp",
+    image: "/assets/Steamed-Momos.webp",
     title: "Steamed Momos",
     description: "Description of Food Item 15",
     price: 7.99,
@@ -169,7 +168,7 @@ export const foods = [
   },
   {
     id: 16,
-    image: "./src/assets/tea.webp",
+    image: "/assets/tea.webp",
     title: "Tea",
     description: "Description of Food Item 16",
     price: 11.99,
@@ -180,7 +179,7 @@ export const foods = [
   },
   {
     id: 17,
-    image: "./src/assets/Tomato-Soup.webp",
+    image: "/assets/Tomato-Soup.webp",
     title: "Tomato Soup",
     description: "Description of Food Item 17",
     price: 11.99,
