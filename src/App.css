@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@300;400;500;600;700&family=Leckerli+One&family=Lora:wght@400;500;600;700&family=Mulish:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=Overpass:wght@200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@700&family=Source+Sans+3:wght@300;400;500;600;700&family=Urbanist:wght@400;600;700&family=Varela&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.list {
+  overflow: visible !important;
+  text-align: center;
+}
+.bottom-shadow {
+  box-shadow: 0px -5px 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #fff;
+  cursor: pointer;
+}
+
+.arrow--left {
+  left: 5px;
+}
+
+.arrow--right {
+  left: auto;
+  right: 5px;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+}
